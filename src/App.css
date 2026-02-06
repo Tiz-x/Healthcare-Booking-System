@@ -1,0 +1,39 @@
+/* App.css - Complete reset for spacing issues */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Ensure Router and Layout have no spacing */
+.router-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Layout component should have no extra spacing */
+.layout {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
