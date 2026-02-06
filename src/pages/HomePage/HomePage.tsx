@@ -46,7 +46,7 @@ const HomePage: React.FC = () => {
 
   // Auto slide functionality
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setTimeout>;
     if (isAutoPlaying) {
       interval = setInterval(() => {
         setCurrentSlide((prev) => (prev + 1) % medicalImages.length);
