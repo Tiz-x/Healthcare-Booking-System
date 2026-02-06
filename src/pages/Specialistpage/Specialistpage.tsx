@@ -25,7 +25,7 @@ import {
   FaArrowLeft,
 } from "react-icons/fa";
 import { ScrollAnimationWrapper } from "../../components/ScrollAnimationWrapper";
-import "./SpecialistPage.css";
+import "./Specialistpage.css";
 
 interface Specialist {
   id: number;
